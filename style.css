@@ -1,0 +1,87 @@
+header {
+    background-color: dodgerblue;
+}
+
+body {
+    margin:0;
+}
+
+#navbar a {
+    color:white;
+}
+
+#navbar li {
+    display: inline;
+    list-style: none;
+    padding: 10px 10px;
+}
+
+#logo {
+    display: inline-block;
+    color: white;
+    padding-left: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#navbar {
+    display: inline-block;
+    float: right;
+    color: white;
+    padding-right: 10px;
+    padding-top: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.article img {
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    float: left;
+    padding-left: 10px;
+}
+
+.article {
+    display: inline-block;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+#content {
+    display: inline-block;
+    float: left;
+    width: 80%;
+}
+
+#sidebar {
+    display: inline-block;
+    float: left;
+    width: 20%;
+}
+
+body > main  {
+    margin: auto;
+    width: 80%;
+}
+
+hgroup {
+    padding-left: 7%;
+}
+
+#comments {
+    display: inline-block;
+    padding: 30px;
+}
+
+footer > p{
+    color: white;
+    text-align: center;
+    background-color: dodgerblue;
+    margin-top: 100px;
+    padding:10px;
+    margin: 0;
+}
+
+aside img {
+    width: 150px;
+    height: 150px;
+}
+
